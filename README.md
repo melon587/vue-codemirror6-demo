@@ -3,10 +3,12 @@
 
 后续有机会会做不定期的更新
 
-安装好node环境 
+安装好node环境 打开终端
 
 node -v 18.16.1
 
 git clone https://github.com/melon587/vue-codemirror6-demo.git
 
 npm install
+
+npm run serve
