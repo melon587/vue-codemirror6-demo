@@ -1,0 +1,25 @@
+.codemirror-tooltip {
+  padding: 4px 0 !important;
+  overflow: hidden;
+  background-color: rgb(255 255 255) !important;
+  border: none;
+  border-radius: 8px;
+  box-shadow:
+    0 4px 12px 0 rgb(0 0 0 / 8%),
+    0 2px 6px 0 rgb(0 0 0 / 8%),
+    0 0 2px 0 rgb(0 0 0 / 8%);
+
+  [aria-selected='true'] {
+    color: unset !important;
+    background: rgb(242 243 245) !important;
+  }
+
+  .codemirror-option {
+    display: flex;
+    align-items: center;
+    height: 22px;
+    padding: 4px 12px !important;
+    font-size: 12px;
+    color: rgb(29 33 41) !important;
+  }
+}
